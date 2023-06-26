@@ -108,27 +108,41 @@ body{
     margin: 0 0 10px 0;
 }
 
-.light-red-background{
-    color: rgb(255, 87, 87);
-    background-color: rgba(255, 87, 87, 0.05);
-}
-
-.orangey-yellow-background{
-    color: rgb(255, 176, 31);
-    background-color: rgba(255, 176, 31, 0.05);
-}
-.green-teal-background{
-    color: rgb(0, 189, 145);
-    background-color: rgba(0, 189, 145, 0.05);
-}
-.cobalt-blue-background{
-    color: rgb(17, 37, 212);
-    background-color: rgba(17, 37, 212, 0.05);
-}
-
 .icon{
     display: flex;
     gap: 5px;
+}
+
+.light-red-background{
+    background-color: rgba(255, 87, 87, 0.05);
+}
+
+.reaction-icon{
+    color: rgb(255, 87, 87);
+}
+
+.orangey-yellow-background{
+    background-color: rgba(255, 176, 31, 0.05);
+}
+
+.memory-icon{
+    color: rgb(255, 176, 31);
+}
+
+.green-teal-background{
+    background-color: rgba(0, 189, 145, 0.05);
+}
+
+.verbal-icon{
+    color: rgb(0, 189, 145);
+}
+
+.cobalt-blue-background{
+    background-color: rgba(17, 37, 212, 0.05);
+}
+
+.visual-icon{
+    color: rgb(17, 37, 212);
 }
 
 .continue-button{
@@ -140,7 +154,7 @@ body{
     border: none;
 }
 
-.continue-button:hover, .continue-button:active{
+.continue-button:hover{
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     cursor: pointer;
 }
