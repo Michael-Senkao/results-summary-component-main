@@ -1,5 +1,4 @@
 
-My second Frontend Mentor Project
 
 # Frontend Mentor - Results summary component
 
